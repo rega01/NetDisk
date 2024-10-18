@@ -1,0 +1,194 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+%.o	Makefile	/^%.o: %.c$/;"	t
+ALL	Makefile	/^ALL: $(Outs) $/;"	t
+ARGS_CHECK	thread_pool.h	/^#define ARGS_CHECK(/;"	d
+BIN	Makefile	/^BIN:=CloudiskServer$/;"	m
+CC	Makefile	/^CC := gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -w -g $/;"	m
+CLIENT_FORCE_EXIT	thread_pool.h	/^    CLIENT_FORCE_EXIT = 200,$/;"	e	enum:__anon4d71270c0103
+CMD_TYPE_CD	thread_pool.h	/^    CMD_TYPE_CD,$/;"	e	enum:__anon4d71270c0103
+CMD_TYPE_GETS	thread_pool.h	/^    CMD_TYPE_GETS,$/;"	e	enum:__anon4d71270c0103
+CMD_TYPE_LS	thread_pool.h	/^    CMD_TYPE_LS,$/;"	e	enum:__anon4d71270c0103
+CMD_TYPE_MKDIR	thread_pool.h	/^    CMD_TYPE_MKDIR,$/;"	e	enum:__anon4d71270c0103
+CMD_TYPE_NOTCMD	thread_pool.h	/^    CMD_TYPE_NOTCMD,  \/\/不是命令$/;"	e	enum:__anon4d71270c0103
+CMD_TYPE_PUTS	thread_pool.h	/^    CMD_TYPE_PUTS,$/;"	e	enum:__anon4d71270c0103
+CMD_TYPE_PUTS_EXIST	thread_pool.h	/^    CMD_TYPE_PUTS_EXIST,$/;"	e	enum:__anon4d71270c0103
+CMD_TYPE_PWD	thread_pool.h	/^    CMD_TYPE_PWD=1,$/;"	e	enum:__anon4d71270c0103
+CMD_TYPE_RMDIR	thread_pool.h	/^    CMD_TYPE_RMDIR,$/;"	e	enum:__anon4d71270c0103
+CMD_TYPE_RMFILE	thread_pool.h	/^    CMD_TYPE_RMFILE,$/;"	e	enum:__anon4d71270c0103
+COLOR_Directory	thread_pool.h	/^#define COLOR_Directory /;"	d
+COLOR_REG	thread_pool.h	/^#define COLOR_REG /;"	d
+COLOR_RESET	thread_pool.h	/^#define COLOR_RESET /;"	d
+CmdType	thread_pool.h	/^}CmdType;$/;"	t	typeref:enum:__anon4d71270c0103
+EMPTY	hashtable.h	/^#define EMPTY /;"	d
+EPOLL_ARR_SIZE	main.c	/^#define EPOLL_ARR_SIZE /;"	d	file:
+ERROR_CHECK	thread_pool.h	/^#define ERROR_CHECK(/;"	d
+FILENAME	transfer.c	/^#define FILENAME /;"	d	file:
+GLOBAL_H	global.h	/^#define GLOBAL_H /;"	d
+GlobalDir	global.h	/^#define GlobalDir /;"	d
+GlobalFile	global.h	/^#define GlobalFile /;"	d
+HashTable	hashtable.h	/^} HashTable;  $/;"	t	typeref:struct:__anonba8be1670208
+IP	config.h	/^#define IP /;"	d
+KeyValue	hashtable.h	/^} KeyValue;  $/;"	t	typeref:struct:__anonba8be1670108
+ListNode	linked_list.h	/^typedef struct ListNode {  $/;"	s
+ListNode	linked_list.h	/^} ListNode;  $/;"	t	typeref:struct:ListNode
+LoginStatus	user.h	/^}LoginStatus;$/;"	t	typeref:enum:__anon2124e5da0103
+MAX_SIZE	hashtable.h	/^#define MAX_SIZE /;"	d
+Outs	Makefile	/^Outs := $(patsubst %.c, %.o, $(Srcs))$/;"	m
+PORT	config.h	/^#define PORT /;"	d
+QUERY_LEN	mysql.h	/^#define QUERY_LEN /;"	d
+Register1	user.c	/^void Register1(user_info_t * user){$/;"	f	typeref:typename:void
+Register2	user.c	/^void Register2(user_info_t * user, const char * encrypted){$/;"	f	typeref:typename:void
+SALT_LEN	user.h	/^#define SALT_LEN /;"	d
+SIZE	thread_pool.h	/^#define SIZE(/;"	d
+STATUS_LOGIN	user.h	/^    STATUS_LOGIN$/;"	e	enum:__anon2124e5da0103
+STATUS_LOGOFF	user.h	/^    STATUS_LOGOFF = 0,$/;"	e	enum:__anon2124e5da0103
+Srcs	Makefile	/^Srcs := $(wildcard *.c)$/;"	m
+TASK_LOGIN_SECTION1	thread_pool.h	/^    TASK_LOGIN_SECTION1 = 100,$/;"	e	enum:__anon4d71270c0103
+TASK_LOGIN_SECTION1_RESP_ERROR	thread_pool.h	/^    TASK_LOGIN_SECTION1_RESP_ERROR,$/;"	e	enum:__anon4d71270c0103
+TASK_LOGIN_SECTION1_RESP_OK	thread_pool.h	/^    TASK_LOGIN_SECTION1_RESP_OK,$/;"	e	enum:__anon4d71270c0103
+TASK_LOGIN_SECTION2	thread_pool.h	/^    TASK_LOGIN_SECTION2,$/;"	e	enum:__anon4d71270c0103
+TASK_LOGIN_SECTION2_RESP_ERROR	thread_pool.h	/^    TASK_LOGIN_SECTION2_RESP_ERROR,$/;"	e	enum:__anon4d71270c0103
+TASK_LOGIN_SECTION2_RESP_OK	thread_pool.h	/^    TASK_LOGIN_SECTION2_RESP_OK,$/;"	e	enum:__anon4d71270c0103
+TASK_REGISTER_ENCRYPTEDCODE	thread_pool.h	/^    TASK_REGISTER_ENCRYPTEDCODE,$/;"	e	enum:__anon4d71270c0103
+TASK_REGISTER_ERROR	thread_pool.h	/^    TASK_REGISTER_ERROR,$/;"	e	enum:__anon4d71270c0103
+TASK_REGISTER_RESP_OK	thread_pool.h	/^    TASK_REGISTER_RESP_OK,$/;"	e	enum:__anon4d71270c0103
+TASK_REGISTER_SALT	thread_pool.h	/^    TASK_REGISTER_SALT,$/;"	e	enum:__anon4d71270c0103
+TASK_REGISTER_USERNAME	thread_pool.h	/^    TASK_REGISTER_USERNAME,$/;"	e	enum:__anon4d71270c0103
+THREAD_ERROR_CHECK	thread_pool.h	/^#define THREAD_ERROR_CHECK(/;"	d
+THREAD_NUM	config.h	/^#define THREAD_NUM /;"	d
+USER_HOME	config.h	/^#define USER_HOME /;"	d
+_GNU_SOURCE	thread_pool.h	/^#define _GNU_SOURCE$/;"	d
+__CONFIG_H__	config.h	/^#define __CONFIG_H__$/;"	d
+__HASH_TABLE_H__	hashtable.h	/^#define __HASH_TABLE_H__$/;"	d
+__LINKED_LIST_H__	linked_list.h	/^#define __LINKED_LIST_H__$/;"	d
+__MYSQL_H__	mysql.h	/^#define __MYSQL_H__$/;"	d
+__SHA256_H__	sha256.h	/^#define __SHA256_H__$/;"	d
+__THREAD_POOL_H__	thread_pool.h	/^#define __THREAD_POOL_H__$/;"	d
+__USER_H__	user.h	/^#define __USER_H__$/;"	d
+__anon2124e5da0103	user.h	/^typedef enum {$/;"	g
+__anon2124e5da0208	user.h	/^typedef struct {$/;"	s
+__anon4d71270c0103	thread_pool.h	/^typedef enum {$/;"	g
+__anon4d71270c0208	thread_pool.h	/^{$/;"	s
+__anonba8be1670108	hashtable.h	/^typedef struct {  $/;"	s
+__anonba8be1670208	hashtable.h	/^typedef struct {  $/;"	s
+addEpollReadfd	server.c	/^int addEpollReadfd(int epfd, int fd)$/;"	f	typeref:typename:int
+appendNode	linked_list.c	/^void appendNode(ListNode **head, void *val) {  $/;"	f	typeref:typename:void
+broadcastALL	task_queue.c	/^int broadcastALL(task_queue_t * que)$/;"	f	typeref:typename:int
+buff	thread_pool.h	/^    char buff[1000];\/\/记录内容本身$/;"	m	struct:__anon4d71270c0208	typeref:typename:char[1000]
+cdCommand	cd.c	/^void cdCommand(task_t * task,user_info_t * user){$/;"	f	typeref:typename:void
+clean	Makefile	/^clean:$/;"	t
+cond	thread_pool.h	/^    pthread_cond_t cond;$/;"	m	struct:task_queue_s	typeref:typename:pthread_cond_t
+createNode	linked_list.c	/^ListNode* createNode(void * val) {  $/;"	f	typeref:typename:ListNode *
+data	thread_pool.h	/^    char data[1000];$/;"	m	struct:task_s	typeref:typename:char[1000]
+delEpollReadfd	server.c	/^int delEpollReadfd(int epfd, int fd)$/;"	f	typeref:typename:int
+deleteNode	linked_list.c	/^void deleteNode(ListNode **head, void * target) {  $/;"	f	typeref:typename:void
+deleteNode2	linked_list.c	/^void deleteNode2(ListNode **head, int peerfd)$/;"	f	typeref:typename:void
+destroyHashTable	hashtable.c	/^void destroyHashTable(HashTable *ht) {$/;"	f	typeref:typename:void
+disk_mysqlCheckGlobal	mysql.c	/^void disk_mysqlCheckGlobal(MYSQL *mysql){$/;"	f	typeref:typename:void
+disk_mysql_databaseinit	mysql.c	/^void disk_mysql_databaseinit(MYSQL *mysql){$/;"	f	typeref:typename:void
+disk_mysql_delete	mysql.c	/^void disk_mysql_delete(MYSQL * mysql,const char* delete_query){$/;"	f	typeref:typename:void
+disk_mysql_init_connect	mysql.c	/^MYSQL * disk_mysql_init_connect(MYSQL * mysql){$/;"	f	typeref:typename:MYSQL *
+disk_mysql_insert	mysql.c	/^void disk_mysql_insert(MYSQL * mysql,const char* insert_query){$/;"	f	typeref:typename:void
+disk_mysql_print	mysql.c	/^void disk_mysql_print(MYSQL_RES * res){$/;"	f	typeref:typename:void
+disk_mysql_query	mysql.c	/^MYSQL_RES * disk_mysql_query(MYSQL * mysql,const char* query){$/;"	f	typeref:typename:MYSQL_RES *
+disk_mysql_update	mysql.c	/^void disk_mysql_update(MYSQL * mysql,const char* insert_query){$/;"	f	typeref:typename:void
+doTask	bussiness.c	/^void doTask(task_t * task)$/;"	f	typeref:typename:void
+encrypted	user.h	/^    char encrypted[100];\/\/从\/etc\/shadow文件中获取的加密密文$/;"	m	struct:__anon2124e5da0208	typeref:typename:char[100]
+epfd	thread_pool.h	/^    int epfd;\/\/epoll的实例$/;"	m	struct:task_s	typeref:typename:int
+erase	hashtable.c	/^void erase(HashTable *ht, const char *key) {  $/;"	f	typeref:typename:void
+exitPipe	main.c	/^int exitPipe[2];$/;"	v	typeref:typename:int[2]
+find	hashtable.c	/^void * find(HashTable *ht, const char *key) {  $/;"	f	typeref:typename:void *
+flag	thread_pool.h	/^    int flag;\/\/0 表示要退出，1 表示不退出$/;"	m	struct:task_queue_s	typeref:typename:int
+freeList	linked_list.c	/^void freeList(ListNode *head) {  $/;"	f	typeref:typename:void
+freeStrs	str_util.c	/^void freeStrs(char * pstrs[], int count)$/;"	f	typeref:typename:void
+generateSalt	user.c	/^char* generateSalt(){$/;"	f	typeref:typename:char *
+get_setting	user.c	/^static void get_setting(char *setting,char *passwd)$/;"	f	typeref:typename:void	file:
+getsCommand	gets.c	/^void getsCommand(task_t * task,user_info_t * user){$/;"	f	typeref:typename:void
+handleMessage	bussiness.c	/^void handleMessage(int sockfd, int epfd, task_queue_t * que)$/;"	f	typeref:typename:void
+hash	hashtable.c	/^unsigned int hash(const char *key) {  $/;"	f	typeref:typename:unsigned int
+ht	main.c	/^HashTable ht;$/;"	v	typeref:typename:HashTable
+initHashTable	hashtable.c	/^void initHashTable(HashTable *ht) {  $/;"	f	typeref:typename:void
+insert	hashtable.c	/^void insert(HashTable *ht, const char *key, void * value) {  $/;"	f	typeref:typename:void
+isEmpty	mysql.c	/^bool isEmpty(MYSQL * mysql,const char * query){$/;"	f	typeref:typename:bool
+key	hashtable.h	/^    char key[50];  $/;"	m	struct:__anonba8be1670108	typeref:typename:char[50]
+len	thread_pool.h	/^    int len;\/\/记录内容长度$/;"	m	struct:__anon4d71270c0208	typeref:typename:int
+loginCheck1	user.c	/^void loginCheck1(user_info_t * user)$/;"	f	typeref:typename:void
+loginCheck2	user.c	/^void loginCheck2(user_info_t * user, const char * encrypted)$/;"	f	typeref:typename:void
+lsCommand	ls.c	/^void lsCommand(task_t * task,user_info_t * user)$/;"	f	typeref:typename:void
+main	main.c	/^int main(int argc, char ** argv)$/;"	f	typeref:typename:int
+mkdirCommand	mkdir.c	/^void mkdirCommand(task_t * task,user_info_t * user)$/;"	f	typeref:typename:void
+mutex	thread_pool.h	/^    pthread_mutex_t mutex; $/;"	m	struct:task_queue_s	typeref:typename:pthread_mutex_t
+mysql	main.c	/^MYSQL * mysql ;$/;"	v	typeref:typename:MYSQL *
+mysql_id	user.h	/^    char mysql_id[20];$/;"	m	struct:__anon2124e5da0208	typeref:typename:char[20]
+name	user.h	/^    char name[20];\/\/用户名(客户端传递过来的)$/;"	m	struct:__anon2124e5da0208	typeref:typename:char[20]
+next	linked_list.h	/^    struct ListNode *next;   \/\/ 指向下一个节点的指针  $/;"	m	struct:ListNode	typeref:struct:ListNode *
+notCommand	bussiness.c	/^void notCommand(task_t * task,user_info_t * user)$/;"	f	typeref:typename:void
+pFront	thread_pool.h	/^    task_t * pFront;$/;"	m	struct:task_queue_s	typeref:typename:task_t *
+pNext	thread_pool.h	/^    struct task_s * pNext;$/;"	m	struct:task_s	typeref:struct:task_s *
+pRear	thread_pool.h	/^    task_t * pRear;$/;"	m	struct:task_queue_s	typeref:typename:task_t *
+peerfd	thread_pool.h	/^    int peerfd;\/\/与client进行通信的套接字$/;"	m	struct:task_s	typeref:typename:int
+printHashTable	hashtable.c	/^void printHashTable(HashTable *ht) {  $/;"	f	typeref:typename:void
+printList	linked_list.c	/^void printList(ListNode *head) {  $/;"	f	typeref:typename:void
+pthreadNum	thread_pool.h	/^    int pthreadNum;$/;"	m	struct:threadpool_s	typeref:typename:int
+pthreads	thread_pool.h	/^    pthread_t * pthreads;$/;"	m	struct:threadpool_s	typeref:typename:pthread_t *
+putsCommand	puts.c	/^void putsCommand(task_t * task,user_info_t * user) {$/;"	f	typeref:typename:void
+pwdCommand	pwd.c	/^void pwdCommand(task_t * task,user_info_t * user)$/;"	f	typeref:typename:void
+pwd_id	user.h	/^    char pwd_id[128];\/\/用户当前路径$/;"	m	struct:__anon2124e5da0208	typeref:typename:char[128]
+que	thread_pool.h	/^    task_queue_t que;\/\/...任务队列$/;"	m	struct:threadpool_s	typeref:typename:task_queue_t
+queSize	thread_pool.h	/^    int queSize;\/\/记录当前任务的数量$/;"	m	struct:task_queue_s	typeref:typename:int
+queueDestroy	task_queue.c	/^int queueDestroy(task_queue_t * que)$/;"	f	typeref:typename:int
+queueInit	task_queue.c	/^int queueInit(task_queue_t * que)$/;"	f	typeref:typename:int
+queueIsEmpty	task_queue.c	/^int queueIsEmpty(task_queue_t * que)$/;"	f	typeref:typename:int
+readConfig	config.c	/^void readConfig(const char* filename, HashTable * ht)$/;"	f	typeref:typename:void
+rebuild	Makefile	/^rebuild: clean ALL$/;"	t
+recvn	server.c	/^int recvn(int sockfd, void * buff, int len)$/;"	f	typeref:typename:int
+rmdirCommand	rmdir.c	/^void rmdirCommand(task_t * task,user_info_t * user){$/;"	f	typeref:typename:void
+rmdirHelp	rmdir.c	/^void  rmdirHelp(char * dirID){$/;"	f	typeref:typename:void
+rmfileCommand	rmfile.c	/^void rmfileCommand(task_t * task,user_info_t * user){$/;"	f	typeref:typename:void
+salt	user.h	/^    char salt[65];$/;"	m	struct:__anon2124e5da0208	typeref:typename:char[65]
+sendn	server.c	/^int sendn(int sockfd, const void * buff, int len)$/;"	f	typeref:typename:int
+sha256_file	sha256.c	/^char * sha256_file(const char * filename){$/;"	f	typeref:typename:char *
+sigHandler	main.c	/^void sigHandler(int num)$/;"	f	typeref:typename:void
+sighandler_t	thread_pool.h	/^typedef void (*sighandler_t)(int);$/;"	t	typeref:typename:void (*)(int)
+size	hashtable.h	/^    int size;  $/;"	m	struct:__anonba8be1670208	typeref:typename:int
+sockfd	user.h	/^    int sockfd;\/\/套接字文件描述符$/;"	m	struct:__anon2124e5da0208	typeref:typename:int
+splitString	str_util.c	/^void splitString(const char * pstrs, const char * delimiter, char *tokens[], int max_tokens, int/;"	f	typeref:typename:void
+status	user.h	/^    LoginStatus status;\/\/登录状态$/;"	m	struct:__anon2124e5da0208	typeref:typename:LoginStatus
+store_hash	sha256.c	/^void store_hash(unsigned char md[SHA256_DIGEST_LENGTH],char hash[65]) {$/;"	f	typeref:typename:void
+table	hashtable.h	/^    KeyValue table[MAX_SIZE];  $/;"	m	struct:__anonba8be1670208	typeref:typename:KeyValue[]
+table_V_init	mysql.c	/^void table_V_init(MYSQL* mysql){$/;"	f	typeref:typename:void
+taskDeque	task_queue.c	/^task_t * taskDeque(task_queue_t * que)$/;"	f	typeref:typename:task_t *
+taskEnque	task_queue.c	/^int taskEnque(task_queue_t * que, task_t * ptask)$/;"	f	typeref:typename:int
+taskSize	task_queue.c	/^int taskSize(task_queue_t * que)$/;"	f	typeref:typename:int
+task_queue_s	thread_pool.h	/^typedef struct task_queue_s$/;"	s
+task_queue_t	thread_pool.h	/^}task_queue_t;$/;"	t	typeref:struct:task_queue_s
+task_s	thread_pool.h	/^typedef struct task_s{$/;"	s
+task_t	thread_pool.h	/^}task_t;$/;"	t	typeref:struct:task_s
+tcpInit	server.c	/^int tcpInit(const char * ip, const char * port)$/;"	f	typeref:typename:int
+threadFunc	thread_pool.c	/^void * threadFunc(void* arg)$/;"	f	typeref:typename:void *
+threadpoolDestroy	thread_pool.c	/^int threadpoolDestroy(threadpool_t * pthreadpool)$/;"	f	typeref:typename:int
+threadpoolInit	thread_pool.c	/^int threadpoolInit(threadpool_t * pthreadpool, int num)$/;"	f	typeref:typename:int
+threadpoolStart	thread_pool.c	/^int threadpoolStart(threadpool_t * pthreadpool)$/;"	f	typeref:typename:int
+threadpoolStop	thread_pool.c	/^int threadpoolStop(threadpool_t * pthreadpool)$/;"	f	typeref:typename:int
+threadpool_s	thread_pool.h	/^typedef struct threadpool_s {$/;"	s
+threadpool_t	thread_pool.h	/^}threadpool_t;$/;"	t	typeref:struct:threadpool_s
+train_t	thread_pool.h	/^}train_t;$/;"	t	typeref:struct:__anon4d71270c0208
+transferFile	transfer.c	/^int transferFile(int sockfd)$/;"	f	typeref:typename:int
+type	thread_pool.h	/^    CmdType type;$/;"	m	struct:__anon4d71270c0208	typeref:typename:CmdType
+type	thread_pool.h	/^    CmdType type;$/;"	m	struct:task_s	typeref:typename:CmdType
+userInit	user.c	/^void userInit(user_info_t* user){$/;"	f	typeref:typename:void
+userList	main.c	/^ListNode * userList = NULL;$/;"	v	typeref:typename:ListNode *
+userLoginCheck1	bussiness.c	/^void userLoginCheck1(task_t * task) {$/;"	f	typeref:typename:void
+userLoginCheck2	bussiness.c	/^void userLoginCheck2(task_t * task) {$/;"	f	typeref:typename:void
+userRegister1	bussiness.c	/^void userRegister1(task_t * task){$/;"	f	typeref:typename:void
+userRegister2	bussiness.c	/^void userRegister2(task_t * task){$/;"	f	typeref:typename:void
+user_info_t	user.h	/^}user_info_t;$/;"	t	typeref:struct:__anon2124e5da0208
+val	linked_list.h	/^    void * val;              \/\/ 节点的值  $/;"	m	struct:ListNode	typeref:typename:void *
+value	hashtable.h	/^    void * value;  $/;"	m	struct:__anonba8be1670108	typeref:typename:void *

@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(BIN)	Makefile	/^$(BIN):$(OBJS)$/;"	t
+%.o	Makefile	/^%.o:%.c$/;"	t
+BIN	Makefile	/^BIN:=client$/;"	m
+CC	Makefile	/^CC:=gcc$/;"	m
+CLIENT_FORCE_EXIT	client.h	/^    CLIENT_FORCE_EXIT = 200,$/;"	e	enum:__anon4f09d8da0103
+CMD_TYPE_CD	client.h	/^    CMD_TYPE_CD,$/;"	e	enum:__anon4f09d8da0103
+CMD_TYPE_GETS	client.h	/^    CMD_TYPE_GETS,$/;"	e	enum:__anon4f09d8da0103
+CMD_TYPE_LS	client.h	/^    CMD_TYPE_LS,$/;"	e	enum:__anon4f09d8da0103
+CMD_TYPE_MKDIR	client.h	/^    CMD_TYPE_MKDIR,$/;"	e	enum:__anon4f09d8da0103
+CMD_TYPE_NOTCMD	client.h	/^    CMD_TYPE_NOTCMD,  \/\/不是命令$/;"	e	enum:__anon4f09d8da0103
+CMD_TYPE_PUTS	client.h	/^    CMD_TYPE_PUTS,$/;"	e	enum:__anon4f09d8da0103
+CMD_TYPE_PWD	client.h	/^    CMD_TYPE_PWD=1,$/;"	e	enum:__anon4f09d8da0103
+CMD_TYPE_RMDIR	client.h	/^    CMD_TYPE_RMDIR,$/;"	e	enum:__anon4f09d8da0103
+CMD_TYPE_RMFILE	client.h	/^    CMD_TYPE_RMFILE,$/;"	e	enum:__anon4f09d8da0103
+CmdType	client.h	/^}CmdType;$/;"	t	typeref:enum:__anon4f09d8da0103
+FLAGS	Makefile	/^FLAGS:=-g -w -lcrypt$/;"	m
+OBJS	Makefile	/^OBJS:=$(patsubst %.c, %.o, $(SRCS))$/;"	m
+PASSWORD	client.h	/^#define PASSWORD /;"	d
+SRCS	Makefile	/^SRCS:=$(wildcard *.c)$/;"	m
+TASK_LOGIN_SECTION1	client.h	/^    TASK_LOGIN_SECTION1 = 100,$/;"	e	enum:__anon4f09d8da0103
+TASK_LOGIN_SECTION1_RESP_ERROR	client.h	/^    TASK_LOGIN_SECTION1_RESP_ERROR,$/;"	e	enum:__anon4f09d8da0103
+TASK_LOGIN_SECTION1_RESP_OK	client.h	/^    TASK_LOGIN_SECTION1_RESP_OK,$/;"	e	enum:__anon4f09d8da0103
+TASK_LOGIN_SECTION2	client.h	/^    TASK_LOGIN_SECTION2,$/;"	e	enum:__anon4f09d8da0103
+TASK_LOGIN_SECTION2_RESP_ERROR	client.h	/^    TASK_LOGIN_SECTION2_RESP_ERROR,$/;"	e	enum:__anon4f09d8da0103
+TASK_LOGIN_SECTION2_RESP_OK	client.h	/^    TASK_LOGIN_SECTION2_RESP_OK,$/;"	e	enum:__anon4f09d8da0103
+TASK_REGISTER_ENCRYPTEDCODE	client.h	/^    TASK_REGISTER_ENCRYPTEDCODE,$/;"	e	enum:__anon4f09d8da0103
+TASK_REGISTER_ERROR	client.h	/^    TASK_REGISTER_ERROR,$/;"	e	enum:__anon4f09d8da0103
+TASK_REGISTER_RESP_OK	client.h	/^    TASK_REGISTER_RESP_OK,$/;"	e	enum:__anon4f09d8da0103
+TASK_REGISTER_SALT	client.h	/^    TASK_REGISTER_SALT,$/;"	e	enum:__anon4f09d8da0103
+TASK_REGISTER_USERNAME	client.h	/^    TASK_REGISTER_USERNAME,$/;"	e	enum:__anon4f09d8da0103
+USER_NAME	client.h	/^#define USER_NAME /;"	d
+__SHA256_H__	sha256.h	/^#define __SHA256_H__$/;"	d
+__anon4f09d8da0103	client.h	/^typedef enum {$/;"	g
+__anon4f09d8da0208	client.h	/^{$/;"	s
+buff	client.h	/^    char buff[1000];\/\/记录内容本身$/;"	m	struct:__anon4f09d8da0208	typeref:typename:char[1000]
+clean	Makefile	/^clean:$/;"	t
+freeStrs	str_util.c	/^void freeStrs(char * pstrs[], int count)$/;"	f	typeref:typename:void
+getCommandType	client.c	/^int getCommandType(const char * str)$/;"	f	typeref:typename:int
+getsCommand	gets.c	/^void getsCommand(int sockfd,train_t * t){$/;"	f	typeref:typename:void
+len	client.h	/^    int len;\/\/记录内容长度$/;"	m	struct:__anon4f09d8da0208	typeref:typename:int
+main	main.c	/^int main()$/;"	f	typeref:typename:int
+parseCommand	client.c	/^int parseCommand(const char * pinput, int len, train_t * pt)$/;"	f	typeref:typename:int
+putsCommand	puts.c	/^void putsCommand(int sockfd, train_t * pt)$/;"	f	typeref:typename:void
+recvn	client.c	/^int recvn(int sockfd, void * buff, int len)$/;"	f	typeref:typename:int
+registerSalt	client.c	/^static int registerSalt(int sockfd, train_t *pt){$/;"	f	typeref:typename:int	file:
+sendn	client.c	/^int sendn(int sockfd, const void * buff, int len)$/;"	f	typeref:typename:int
+sha256_file	sha256.c	/^char * sha256_file(const char * filename){$/;"	f	typeref:typename:char *
+splitString	str_util.c	/^void splitString(const char * pstrs, const char* delimiter, char *tokens[], int max_tokens, int /;"	f	typeref:typename:void
+store_hash	sha256.c	/^void store_hash(unsigned char md[SHA256_DIGEST_LENGTH],char hash[65]) {$/;"	f	typeref:typename:void
+tcpConnect	client.c	/^int tcpConnect(const char * ip, unsigned short port)$/;"	f	typeref:typename:int
+train_t	client.h	/^}train_t;$/;"	t	typeref:struct:__anon4f09d8da0208
+type	client.h	/^    CmdType type;\/\/消息类型$/;"	m	struct:__anon4f09d8da0208	typeref:typename:CmdType
+userLogin	client.c	/^int userLogin(int sockfd)$/;"	f	typeref:typename:int
+userLogin1	client.c	/^static int userLogin1(int sockfd, train_t *pt)$/;"	f	typeref:typename:int	file:
+userLogin2	client.c	/^static int userLogin2(int sockfd, train_t * pt)$/;"	f	typeref:typename:int	file:

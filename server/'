@@ -1,0 +1,107 @@
+#include "mysql.h"
+#include "hashtable.h"
+extern HashTable ht;
+
+MYSQL * disk_mysql_init_connect(MYSQL * mysql){
+    const char * host = (const char *)find(&ht,"mysql_host");
+    const char * user = (const char *)find(&ht,"mysql_user");
+    const char * passwd = (const char *)find(&ht,"mysql_passwd");
+    const char * database = (const char *)find(&ht,"mysql_database");
+    mysql = mysql_real_connect(mysql,host,user,passwd,database,
+                               3306,NULL,0);
+    if(!mysql){
+        fprintf(stderr,"%s.\n",mysql_error(mysql));
+        return NULL;
+    }
+    puts("mysql connect success");
+    return mysql;
+}
+
+MYSQL_RES * disk_mysql_query(MYSQL * mysql,const char* query){
+    int ret = mysql_real_query(mysql,query,strlen(query));
+    if(ret !=0 ){
+        printf("%d : %s",mysql_errno(mysql),mysql_error(mysql));
+        return NULL;
+    }
+    MYSQL_RES * res = mysql_store_result(mysql);
+    if(res == NULL){
+        printf("fail store result\n");
+    }
+    return res;
+}
+
+void disk_mysql_print(MYSQL_RES * res){
+    int rows = mysql_num_rows(res);
+    int cols = mysql_num_fields(res);
+    printf("GOT %d rows\n",rows);
+    MYSQL_ROW  row ;
+    MYSQL_FIELD* col;
+
+    while((col = mysql_fetch_field(res))){
+        //col = mysql_fetch_fields(res);
+        printf("%-15s",col->name);
+    }
+    printf("\n");
+
+    while((row = mysql_fetch_row(res)) !=NULL){
+        for(int i =0;i<cols;i++){
+            printf("%-15s",row[i]);
+        }
+        printf("\n");
+    }
+    mysql_free_result(res);
+    return;
+}
+
+
+void disk_mysql_insert(MYSQL * mysql,const char* insert_query){
+    int ret = mysql_real_query(mysql,insert_query,strlen(insert_query));
+    if(ret){
+        printf("%d,%s\n",mysql_errno(mysql),mysql_error(mysql));
+    }else{
+        int rows = mysql_affected_rows(mysql);
+        printf("Query Ok %d affected row\n",rows);
+    }
+    return;
+}
+
+void disk_mysql_update(MYSQL * mysql,const char* insert_query){
+    int ret = mysql_real_query(mysql,insert_query,strlen(insert_query));
+    if(ret){
+        printf("%d,%s\n",mysql_errno(mysql),mysql_error(mysql));
+    }else{
+        int rows = mysql_affected_rows(mysql);
+        printf("Query Ok %d affected row\n",rows);
+    }
+    return;
+}
+
+
+void disk_mysql_delete(MYSQL * mysql,const char* delete_query){
+    int ret = mysql_real_query(mysql,delete_query,strlen(delete_query));
+    if(ret){
+        printf("%d,%s\n",mysql_errno(mysql),mysql_error(mysql));
+    }else{
+        int rows = mysql_affected_rows(mysql);
+        printf("Query Ok %d affected row\n",rows);
+    }
+    return;
+}
+
+
+
+bool isEmpty(MYSQL * mysql,const char * query){
+    int ret = mysql_real_query(mysql,query,strlen(query));
+    if(ret !=0 ){
+        printf("%d : %s",mysql_errno(mysql),mysql_error(mysql));
+    }
+    MYSQL_RES * res = mysql_store_result(mysql);
+    if(res == NULL){
+        printf("fail store result\n");
+    } 
+    return mysql_num_rows(res) == 0;
+}
+
+void mysqlCheckGlobal(MYSQL *mysql){
+    char query[QUERY_LEN]={'\0'};
+}

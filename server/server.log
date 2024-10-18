@@ -1,0 +1,83 @@
+2024-08-09 22:35:23:user() execute CMD{100} parameter{cmj}
+2024-08-09 22:35:23:user(cmj) execute CMD{103} parameter{$5$e2a1b988fcffff3b$ZeDvuMq8/vJIH3EUte1miIxKmMo4l9yusMX4jMUH.35}
+2024-08-09 22:35:33 :user(cmj) exit
+2024-08-10 08:50:39:user() execute CMD{100} parameter{rega}
+2024-08-10 08:50:39:user(rega) execute CMD{106} parameter{rega}
+2024-08-10 08:50:39:user(rega) execute CMD{108} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 08:50:41:user(rega) execute CMD{100} parameter{reaga}
+2024-08-10 08:50:41:user(reaga) execute CMD{106} parameter{reaga}
+2024-08-10 08:50:42:user(reaga) execute CMD{108} parameter{$5$350d16e997acaf61$ymgK5lZs0KKVw3RFfqVWWIFh1gijieSUuTHSj2LuGf/}
+2024-08-10 08:50:43:user(reaga) execute CMD{100} parameter{pwd}
+2024-08-10 08:50:43:user(pwd) execute CMD{106} parameter{pwd}
+2024-08-10 08:50:49:user(pwd) execute CMD{108} parameter{$5$1ec2e096c7cdec3d$YI4iQVs6EgGsbkMDVUyyvSiehC4InT5DfNeURZiyoC/}
+2024-08-10 08:51:06:user(pwd) execute CMD{100} parameter{rega}
+2024-08-10 08:51:09:user(rega) execute CMD{103} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 08:52:17:user(rega) execute CMD{2} parameter{}
+2024-08-10 08:52:23:user(rega) execute CMD{1} parameter{}
+2024-08-10 08:52:24:user(rega) execute CMD{3} parameter{..}
+2024-08-10 08:52:25:user(rega) execute CMD{2} parameter{}
+2024-08-10 08:52:30:user(rega) execute CMD{3} parameter{cmj}
+2024-08-10 08:52:31:user(rega) execute CMD{2} parameter{}
+2024-08-10 08:52:44 :user(rega) exit
+2024-08-10 08:53:57:user() execute CMD{100} parameter{rega}
+2024-08-10 08:53:59:user(rega) execute CMD{103} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 08:54:00:user(rega) execute CMD{1} parameter{}
+2024-08-10 08:54:03:user(rega) execute CMD{3} parameter{..}
+2024-08-10 08:54:06:user(rega) execute CMD{2} parameter{}
+2024-08-10 08:54:18:user(rega) execute CMD{3} parameter{cmj}
+2024-08-10 08:54:20:user(rega) execute CMD{3} parameter{..}
+2024-08-10 08:54:21:user(rega) execute CMD{2} parameter{}
+2024-08-10 08:54:27 :user(rega) exit
+2024-08-10 08:56:40:user() execute CMD{100} parameter{rega}
+2024-08-10 08:56:41:user(rega) execute CMD{103} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 08:56:42:user(rega) execute CMD{1} parameter{}
+2024-08-10 08:56:43:user(rega) execute CMD{2} parameter{}
+2024-08-10 08:56:45:user(rega) execute CMD{3} parameter{cmj}
+2024-08-10 08:56:50 :user(rega) exit
+2024-08-10 09:16:37:user() execute CMD{100} parameter{rega}
+2024-08-10 09:16:38:user(rega) execute CMD{103} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 09:16:39:user(rega) execute CMD{1} parameter{}
+2024-08-10 09:16:40:user(rega) execute CMD{2} parameter{}
+2024-08-10 09:16:42:user(rega) execute CMD{3} parameter{rega}
+2024-08-10 09:16:44:user(rega) execute CMD{2} parameter{}
+2024-08-10 09:16:51:user(rega) execute CMD{7} parameter{smallfie}
+2024-08-10 09:19:34:user() execute CMD{100} parameter{rega}
+2024-08-10 09:19:35:user(rega) execute CMD{103} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 09:19:36:user(rega) execute CMD{2} parameter{}
+2024-08-10 09:19:42:user(rega) execute CMD{7} parameter{smallfile}
+2024-08-10 09:19:52:user(rega) execute CMD{7} parameter{bigfile}
+2024-08-10 09:24:56 :user(rega) exit
+2024-08-10 09:28:06:user() execute CMD{100} parameter{rega}
+2024-08-10 09:28:06:user(rega) execute CMD{103} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 09:28:08:user(rega) execute CMD{1} parameter{}
+2024-08-10 09:28:09:user(rega) execute CMD{2} parameter{}
+2024-08-10 09:28:14:user(rega) execute CMD{6} parameter{smallfile}
+2024-08-10 09:28:24:user(rega) execute CMD{7} parameter{smallfile}
+2024-08-10 09:29:55:user() execute CMD{100} parameter{rega}
+2024-08-10 09:29:56:user(rega) execute CMD{103} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 09:29:58:user(rega) execute CMD{1} parameter{}
+2024-08-10 09:29:59:user(rega) execute CMD{2} parameter{}
+2024-08-10 09:30:07:user(rega) execute CMD{7} parameter{client.o}
+2024-08-10 09:30:14 :user(rega) exit
+2024-08-10 09:32:26:user() execute CMD{100} parameter{rega}
+2024-08-10 09:32:27:user(rega) execute CMD{103} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 09:32:29:user(rega) execute CMD{1} parameter{}
+2024-08-10 09:32:30:user(rega) execute CMD{2} parameter{}
+2024-08-10 09:32:44:user(rega) execute CMD{9} parameter{client.o}
+2024-08-10 09:36:20 :user(rega) exit
+2024-08-10 09:36:40:user() execute CMD{100} parameter{rega}
+2024-08-10 09:36:45:user(rega) execute CMD{103} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 09:36:50:user(rega) execute CMD{7} parameter{smallfile}
+2024-08-10 09:37:07 :user(rega) exit
+2024-08-10 10:36:19:user() execute CMD{100} parameter{rega}
+2024-08-10 10:36:20:user(rega) execute CMD{103} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 10:36:22:user(rega) execute CMD{1} parameter{}
+2024-08-10 10:36:27:user(rega) execute CMD{7} parameter{smallfile}
+2024-08-10 10:36:48:user(rega) execute CMD{9} parameter{smallfile}
+2024-08-10 10:37:33:user(rega) execute CMD{9} parameter{smallfile}
+2024-08-10 10:42:10 :user(rega) exit
+2024-08-10 10:48:59:user() execute CMD{100} parameter{rega}
+2024-08-10 10:49:01:user(rega) execute CMD{103} parameter{$5$3844f9c6e65d6c0a$wnJUbdrsTKe5osY3reXYyVj82JicRz/J8CqSt9JPcBD}
+2024-08-10 10:49:02:user(rega) execute CMD{1} parameter{}
+2024-08-10 10:49:03:user(rega) execute CMD{2} parameter{}
+2024-08-10 10:49:07:user(rega) execute CMD{9} parameter{smallfile}
